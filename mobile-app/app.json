@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "mobile-app",
+    "slug": "mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon1.png",
+    "splash": {
+      "image": "./app/assets/splash1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mobileapp",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDtglHVtsnKKbouEmSJR0uh05H-kSFFO9g"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon1.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mobileapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDtglHVtsnKKbouEmSJR0uh05H-kSFFO9g"
+        }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}

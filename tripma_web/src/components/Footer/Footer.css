@@ -1,0 +1,11 @@
+.color {
+  background-color: brown;
+  margin-top: 10%;
+  height: 70px;
+  width: 100%;
+}
+
+.footer-text {
+  /* margin-top: 40%; */
+  padding-top: 20px;
+}

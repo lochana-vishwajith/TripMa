@@ -1,0 +1,17 @@
+.header {
+  background-color: brown;
+  height: 70px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.headerText {
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+
+.buttonStyle {
+  margin-left: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

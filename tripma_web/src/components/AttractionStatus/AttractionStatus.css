@@ -1,0 +1,79 @@
+@import "rsuite/dist/rsuite.css";
+
+.mainContainer{
+    border: 50px;
+    border-radius: 10px;
+    border-color: rgb(216, 121, 58);
+    align-self:center;
+    align-items: center;
+    align-content: center;
+}
+
+.header-attraction{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(214, 110, 62);
+    margin-bottom: 1%;
+}
+
+.body-status{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-slider {
+    margin-top: 18px; 
+  }
+
+  .custom-slider .rs-slider-handle {
+    top: -6px;
+    background-color: #da6e31;
+    text-align: center;
+    padding: 3px;
+    margin-left: -19px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+ .custom-slider .rs-slider-handle :hover {
+  box-shadow: 0 0 0 8px rgba(255, 126, 52, 0.25);
+}
+.custom-slider .rs-slider-handle ::before {
+  display: none;
+}
+  .custom-slider .rs-slider-dragging .rs-slider-handle,
+  .rs-slider-dragging .rs-slider-handle:hover {
+    box-shadow: none;
+    transform: scale(1.2);
+  } 
+
+  .custom-slider:hover{
+    box-shadow: 0 0 0 8px rgba(255, 133, 52, 0.25);
+  }
+
+  .custom-slider:before{
+    display: none;
+  }
+
+.open-radio{
+  padding: 5px;
+}
+
+.save-buuton-attraction{
+  margin-top: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-radio input{
+  margin-left: 20px;
+}
+
+b{
+  font-size: 16px;
+}
